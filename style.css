@@ -1,14 +1,12 @@
 @media only screen and (min-device-width:100px) and (max-device-width:900px) {
 body {
-zoom:50%;
+zoom:55%;
 }
 
 h1 {
 padding-top:15px;
 height:50px;
-
 }
-
 
 #bto {
 height:220px;
@@ -21,9 +19,12 @@ margin-top:100px;
 #negociação {
 height:100px;
 padding:10px;
-}
-}
 
+}
+#aoo, #coisito, #reset {
+scale:140%;
+}
+}
 
 body {
 display:flex;
