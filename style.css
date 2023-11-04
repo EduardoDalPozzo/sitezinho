@@ -1,3 +1,9 @@
+@media only screen and (min-device-width:100px) and (max-device-width:900px) {
+body {
+zoom:50%;
+}}
+
+
 body {
 display:flex;
 justify-content: center;
