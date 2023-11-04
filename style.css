@@ -1,7 +1,28 @@
 @media only screen and (min-device-width:100px) and (max-device-width:1080px) {
 body {
 zoom:50%;
-}}
+}
+
+h1 {
+padding-top:15px;
+height:50px;
+
+}
+
+
+#bto {
+height:220px;
+}
+
+section {
+margin-top:100px;
+}
+
+#negociação {
+height:100px;
+padding:10px;
+}
+}
 
 
 body {
