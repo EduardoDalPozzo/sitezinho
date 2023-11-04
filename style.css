@@ -18,7 +18,7 @@ padding:5px;
 }
 
 
-button {
+div {
 height:200px;
 width:200px;
 background-color:#77c;
@@ -27,7 +27,7 @@ border-right:4px solid #339;
 font-size:180px;
 }
 
-button:hover {
+div:hover {
 background-color:#44b;
 }
 
@@ -48,6 +48,10 @@ background-color:#f56;
 border-bottom:6px solid#412;
 border-right:4px solid #512;
 margin-bottom:5px;
+align-self:center;
+margin:40px;
+margin-top:5px;
+margin-bottom:5px;
 }
 
 #reset:hover {
@@ -58,11 +62,35 @@ background-color:#c34;
 	background-color:#ccc;
 	display:flex;
 	justify-content:center;
-	height:30px;
+	height:20px;
 width:150px;
-font-size:30px;
+font-size:20px;
 border-bottom:6px solid#412;
 border-right:4px solid #512;
 margin-bottom:5px;
 color:#f56;
+align-self:center;
+margin:40px;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+#coisito {
+color:#000;
+background-color:#ccc;
+border-bottom:6px solid#412;
+border-right:4px solid #512;
+height:20px;
+font-size:18px;
+width:130px;
+align-self:center;
+margin:10px;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+#negociação {
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+display:flex;
 }
